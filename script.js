@@ -1,4 +1,3 @@
-const submitBtn = document.querySelector(".submit");
 let clientName = document.querySelector(".name").value;
 // let number = document.querySelector(".number").value;
 // let email = document.querySelector(".email").value;
@@ -150,10 +149,10 @@ if (window.innerWidth < 480) {
 
 /*const functionPost = function () {
   var myHeaders = new Headers();
-  myHeaders.append("X-API-Key", "59FA5E18F8B0D0FB1125CC3D481A69CB");
+  myHeaders.append("X-API-Key", "7E4C8DA2E3958F6594631338C2E01DFE");
   myHeaders.append("Accept", "application/json");
   myHeaders.append("Content-Type", "application/json");
-  myHeaders.append("Cookie", "OSTSESSID=f986efb9977d3bc6c11e968eae9ad1ae");
+  myHeaders.append("Access-Control-Allow-Origin", "*");
 
   var raw = JSON.stringify({
     name: clientName,
@@ -180,4 +179,4 @@ if (window.innerWidth < 480) {
     .catch((error) => console.log("error", error));
 };
 
-submitBtn.addEventListener("click", functionPost);*/
+submit.addEventListener("click", functionPost);*/
